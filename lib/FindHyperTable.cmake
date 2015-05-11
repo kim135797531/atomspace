@@ -49,7 +49,7 @@ set(HYPER_LIB_PATHS
 )
 
 FIND_LIBRARY(HYPERTABLE_LIBRARY NAMES HyperCommon PATHS ${HYPER_LIB_PATHS})
-FIND_LIBRARY(HYPER_DFS_BROKER NAMES HyperDfsBroker PATHS ${HYPER_LIB_PATHS})
+FIND_LIBRARY(HYPER_DFS_BROKER NAMES HyperFsBroker PATHS ${HYPER_LIB_PATHS})
 
 # XXX Unclear -- do we need to find *all* of these?
 # libHyperCommon.so  libHyperDfsBroker.so  libHyperRanger.so  libHypertable.so
